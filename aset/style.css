@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #97D4E6 url("bg.gif") top center repeat-y;
+	font: normal 8pt/13pt verdana, arial,sans-serif;
+	color: #808080;
+}
+
+
+a, a:visited {
+	text-decoration: none;
+	color: #000;
+	
+}
+
+a:hover {
+	color: #808080;
+}
+
+#header {
+	text-align:right;
+	width: 562px;
+	height: 60px;
+	background: #000 url("header.gif") no-repeat;
+	padding-top: 30px;
+	padding-right: 18px;
+	font-size: 14pt;
+	color: #FFF;
+}
+
+#header th{
+	padding-top: 5px;
+	font-size: 9pt;
+	color: #BFE1ED;	
+}
+
+#container {
+	width: 580px;
+	border: solid 10px #fff;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#horizontal {
+	width: 560px;
+	height: 30px;
+	background: url(horizontal.gif);
+	font-weight: bold;
+	font-size: 8pt;
+	padding-top: 6px;
+	padding-left: 20px;
+	
+}
+
+#horizontal a, #horizontal a:visited {
+	color: #333333;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+#horizontal a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#right-column {
+	color: #333333;
+	width: 134px;
+	margin-top: 5px;
+	background: url(menutop.gif) repeat-y;
+	float: right;
+	padding: 10px;
+	border-right: 4px solid #FFF;
+}
+
+#right-column th{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #76A7DC;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+#content {
+	float: left;
+	width: 410px;
+	margin: 10px 0 0 4px;
+}
+
+#content th{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #0099CC;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+.black {
+	color: #333333;
+}
+
+p {
+margin-bottom: 20px;
+padding-left: 5px;
+}
+
+input.text {
+	width: 100px;	
+	border: 1px solid #ccc;
+}
+
+input.button {
+	color: #808080;
+	padding-left: 0px;
+	font-size: 8pt;	
+	border: none;
+	background: #0099FF;
+	}
+
+#searchbox {
+	background: #FFFFFF;
+	padding: 5px;
+	height: 50px;
+}
+
+#footer {
+	color: #ccc;
+	background: #F9F9F9;
+	clear: both;
+	width: 405px;
+	margin-left: 4px;
+	height: 20px;
+	padding: 4px;
+	border: 1px solid #E4E4E4;
+}
+
+#footer a, #footer a:visited{
+	color: #ccc;
+}
+
+#footer a:hover {
+	color: #808080;
+}
